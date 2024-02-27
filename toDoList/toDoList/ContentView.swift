@@ -59,6 +59,7 @@ struct ContentView: View {
     func addTask(){
         tasks.append(input)
         input = ""
+        count += 1
     }
     
     func removeAll(){
